@@ -1,8 +1,8 @@
 {
-  "name": "Rewired Filter: The Quest of Removing Cockroaches [beta]",
+  "name": "Rewired.hu Filter [beta]",
   "version": "0.1.0",
   "manifest_version": 2,
-  "description": "This extension was created with the awesome extensionizr.com",
+  "description": "User blocker extension for the Rewired.hu forum community",
   "homepage_url": "https://github.com/Oszkar/rewired-filter-crome-extension",
   "icons": {
     "16": "icons/icon16.png",
