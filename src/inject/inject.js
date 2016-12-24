@@ -3,6 +3,10 @@ chrome.extension.sendMessage({}, function(response) {
 	if (document.readyState === "complete") {
 		clearInterval(readyStateCheckInterval);
 
+		chrome.runtime.sendMessage({query: "filteredusers"}, function(response) {
+  			console.log(response.data);
+		});
+
 		// for testing
 		var toRemoveUserNames = ['moken', 'psishock', 'kecske']
 
